@@ -1,0 +1,54 @@
+.ls-p {
+	letter-spacing: 1px;
+}
+.p-justify {
+	text-align: justify;
+}
+.bg-black {
+	background-color: black;
+}
+.container {
+	padding: 1rem 0;
+}
+nav .container {
+	padding: 0;
+}
+.bg-white {
+	background-color: #F5F5F5;
+}
+.w-md-50 {
+	width: 50% !important;
+}
+.skill-card {
+	background-color: rgba(182, 182, 182, 0.281);
+	border-radius: 30px;
+	padding: 10px 0;
+	backdrop-filter: blur(50px);
+}
+.skill-card:hover {
+	position: relative;
+	top: 10px;
+	box-shadow: 5px 5px 10px 1px #000;
+	cursor: pointer;
+}
+#submit {
+	border: none;
+}
+a {
+	text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+	section, nav {
+		padding: 1rem 3rem;
+	}
+}
+/* #showcase-pic {
+	width: 50%;
+} */
+.profile-pic {
+	width: 250px;
+	border-radius: 50%;
+}
+#flame-pic {
+	width: 150px;
+}
